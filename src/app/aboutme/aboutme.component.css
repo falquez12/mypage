@@ -1,0 +1,42 @@
+.vector{
+    width:100%
+}
+
+.h1-aboutme{
+    font-size:3vw;
+}
+p{
+    text-align: left;
+    line-height: 1.6;
+    word-spacing: 4px;
+    font-family: roboto;
+    font-size:1vw;
+    font-weight: 400;
+}
+h2{
+    text-align: justify;
+}
+.skills>p{
+    color: #37447e;
+    margin:0;
+    margin-left: 7vw;
+    font-weight: 600;
+}
+
+@keyframes slideInFromdown {
+    0% {
+      transform: translateY(100%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    h1{
+      font-size:30px;
+    }
+    .wrap{
+        flex-wrap: wrap;
+    }
+  }

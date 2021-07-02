@@ -1,0 +1,12 @@
+<nav>
+<div class="nav-container" [ngClass]="{'invisiblets' : !scroll0,'ninvisiblets': scroll0}">
+    <div class="logo-container"><p class="logo">JF<p></div>
+    <div class="links-container cool-link ">
+      <a (click)="eventhome()" >Home</a>
+      <a (click)="eventaboutme()" >Acerca de mi</a>
+      <a (click)="eventproyecto()" >Proyectos</a>
+      <a (click)="eventcontacto()" >Contactame</a>
+  </div>
+  <div class="menu" *ngIf="screenWidth< 768" (click)="openmenu()" ><mat-icon style="color: #37447e;">menu</mat-icon></div>
+</div>
+</nav>

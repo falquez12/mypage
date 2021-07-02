@@ -1,0 +1,43 @@
+.open{
+    right:0;
+    transition:   0.3s ease-in-out;
+}
+.closed{
+    right:-100%
+}
+.sidebar{
+    position:fixed;
+    background-color: #003140; 
+    z-index:999;
+    height:100%;
+    width:100%;
+    transition:   0.3s ease-in-out;
+}
+p{
+    color: white;
+    text-align: center;
+    font-size:2rem;
+    margin-bottom: 20px;
+    font-family:Montserrat;
+    cursor: pointer
+}
+ul{
+    list-style-type: none;
+}
+.pcerrar{
+    color: black;
+    margin: 0;
+}
+.cool-link>li>p::after {
+    content: '';
+    display: block;
+    margin: auto;
+    height: 2px;
+    width: 0px;
+    background: transparent;
+    transition: width .3s ease, background-color .3s ease;
+  }
+  .cool-link>li>p:hover::after {
+    width: 100%;
+    background: #fff;
+  }

@@ -1,0 +1,37 @@
+.proyectos {
+  background-color: #b1c0cb;
+}
+
+.h1-proyectos {
+  font-size: 3vw;
+}
+h2 {
+  font-size: 1.5vw;
+}
+
+ul {
+  list-style-type: none;
+}
+li{
+    float: left;
+}
+li img {
+    display: block;
+
+  }
+
+.carta{
+    border-radius: 20px;
+    padding: 20px;
+    background-color: white;
+    margin-bottom: 20px;
+    box-shadow: 0 0 60px #0000007a;
+}
+.pasate{
+  width:250%
+}
+@media only screen and (max-width: 768px) {
+  .pasate{
+    width:100%
+  }
+}

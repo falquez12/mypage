@@ -1,0 +1,18 @@
+<div
+  [ngClass]="{ open: state, closed: !state }"
+  class="sidebar container d-flex justify-content-center d-flex flex-column"
+>
+  <button
+    style="width: 10%; margin-left: 20%; max-height: 50px"
+    class="btn btn-link"
+    (click)="cerrar()"
+  >
+    <p class="pcerrar"><mat-icon style="color: #fff">close</mat-icon></p>
+  </button>
+  <ul style="padding: 0" class=" cool-link ">
+    <li><p (click)="eventhome()">Home</p></li>
+    <li><p (click)="eventaboutme()">Sobre mi</p></li>
+    <li><p (click)="eventproyecto()">Proyectos</p></li>
+    <li><p (click)="eventcontacto()">Contactame</p></li>
+  </ul>
+</div>

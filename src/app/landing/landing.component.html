@@ -1,0 +1,10 @@
+<app-sidebar (cerrarside)="changesidebar()" [state]="sidebarstate" (abrirside)="changesidebar()" (tohome)="tohome()"  (toaboutme)="toaboutme()"  (toprojects)="toprojects()"  (tocontact)="tocontact()"></app-sidebar>
+<div [ngClass]="{'opacidad50':sidebarstate}">
+<app-navbar (abrirside)="changesidebar()" (tohome)="tohome()"  (toaboutme)="toaboutme()"  (toprojects)="toprojects()"  (tocontact)="tocontact()"></app-navbar>
+
+<div>
+<app-hero id="home"></app-hero>
+<app-aboutme id="aboutme"></app-aboutme>
+<app-proyectos id="proyectos"></app-proyectos>
+<app-footer id="footer"></app-footer>
+</div>

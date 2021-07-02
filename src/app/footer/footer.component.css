@@ -1,0 +1,17 @@
+.footer{
+    background-color:#003140;
+}
+p{
+    color: antiquewhite;
+}
+
+.footer-container{
+
+    padding-top: 80px;
+    padding-bottom: 64px;
+    color: #fff;
+    color: var(--white);
+}
+h2{
+    color: antiquewhite;
+}
