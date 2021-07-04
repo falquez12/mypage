@@ -3,10 +3,11 @@
 }
 
 .h1-proyectos {
-  font-size: 3vw;
+  font-size: 72px;
+  color:#425AA6
 }
 h2 {
-  font-size: 1.5vw;
+  font-size: 40px;
 }
 
 ul {
@@ -27,11 +28,10 @@ li img {
     margin-bottom: 20px;
     box-shadow: 0 0 60px #0000007a;
 }
-.pasate{
-  width:250%
-}
-@media only screen and (max-width: 768px) {
-  .pasate{
-    width:100%
+
+@media only screen and (max-width:768px){
+  h2 {
+    font-size: 35px;
   }
-}
+
+ }

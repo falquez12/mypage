@@ -3,115 +3,124 @@
     <h1 class="h1-proyectos" style="padding-top: 25px; padding-left: 10%">
       Proyectos
     </h1>
-    <div class="row">
-      <div class="col d-flex align-items-center" style="padding: 0">
-        <img
-          src="../../assets/img/coding-loopff.gif"
-          style="height: auto; margin-left: -10%"
-          class="pasate"
-        />
-      </div>
-      <div class="col " style="padding: 0">
-        <div data-aos="fade-up">
-          <ul style="padding: 0">
-            <li class="carta">
-              <div class="container-fluid" style="padding: 0">
-                <div class="row">
-                  <div class="col">
-                    <h2>Elsy Bakery</h2>
-                    <p>
-                      Aplicación web de comercio electrónico para un negocio de
-                      panadería. El objetivo del proyecto era crear un sitio web
-                      receptivo destinado a mostrar los productos y manejar el
-                      pago con una API.
-                    </p>
-                    <p>Tecnologias usadas:</p>
-                    <ul>
-                      <li><img
-                        src="../../assets/img/react.png"
-                        style="max-width: 50px;height:auto"
-                      />
-                    </li>
-                    <li><img
-                      src="../../assets/img/mySQL-logo.png"
-                      style="max-width: 60px;height:autopx"
+    <div data-aos="fade-up">
+      <div
+        [ngClass]="{ col: screenWidth < 768, row: screenWidth > 768 }"
+        style="padding: 50px 0 100px 0"
+      >
+        <div
+          [ngClass]="{ row: screenWidth < 768, col: screenWidth > 768 }"
+          style="padding: 20px"
+        >
+          <div class="carta">
+            <div class="container">
+              <h2>Este Sitio Web</h2>
+              <hr />
+              <p>Sitio Web diseñado en angular para mostrar mis proyectos.</p>
+              <div style="padding-bottom: 15px">
+                <p>Tecnologias usadas:</p>
+                <ul style="padding: 20px">
+                  <li>
+                    <img
+                      src="../../assets/img/angular.png"
+                      style="max-width: 40px; height: auto; margin-right: 5px"
                     />
                   </li>
-                    </ul>
-                  </div>
-                  <div class="col d-flex align-items-center">
+                  <li>
                     <img
-                      src="../../assets/img/elsypng.png"
-                      style="max-width: 100%"
-                    />
-                  </div>
-                </div>
-              </div>
-            </li>
-            <li class="carta">
-              <div class="container-fluid" style="padding: 0">
-                <div class="row">
-                  <div class="col">
-                    <h2>
-                      Modelo de probabilidad de hurtos por barrios en Bogotá
-                    </h2>
-                    <p>
-                      Utilizando la fuente de datos abiertos del gobierno de
-                      Colombia, diseñe un modelo usando Python, que devolvería
-                      con un grado de certeza estadística la posibilidad de que
-                      se presente un asalto en la ciudad de Bogotá según el
-                      vecindario y la hora del día.
-                    </p>
-                    <p>Tecnologias usadas:</p>
-                    <ul>
-                      <li><img
-                        src="../../assets/img/python.png"
-                        style="max-width: 50px;height:auto"
-                      />
-                    </li>
-                    </ul>
-                  </div>
-                  <div class="col d-flex align-items-center ">
-                    <img
-                      src="../../assets/img/bogotapng.png"
-                      style="max-width: 100%"
-                    />
-                  </div>
-                </div>
-              </div>
-            </li>
-            <li class="carta">
-              <div class="container-fluid" style="padding: 0">
-                <div class="row">
-                  <div class="col">
-                    <h2>Este Sitio Web</h2>
-                    <p>
-                      Sitio Web diseñado en angular para mostrar mis proyectos.
-                    </p>
-                    <p>Tecnologias usadas:</p>
-                    <ul>
-                      <li><img
-                        src="../../assets/img/angular.png"
-                        style="max-width: 40px;height:auto;margin-right: 5px;"
-                      />
-                    </li>
-                    <li><img
                       src="../../assets/img/aws.png"
-                      style="max-width: 50px;height:auto;margin-top: 5px;"
+                      style="max-width: 50px; height: auto; margin-top: 5px"
                     />
                   </li>
-                    </ul>
-                  </div>
-                  <div class="col d-flex align-items-center">
-                    <img
-                      src="../../assets/img/mysitiopng.png"
-                      style="max-width: 100%"
-                    />
-                  </div>
-                </div>
+                </ul>
               </div>
-            </li>
-          </ul>
+              <hr style="clear: both" />
+              <div class="col d-flex align-items-center" style="clear: both">
+                <img
+                  src="../../assets/img/mysitiopng.png"
+                  style="max-width: 100%; padding: 10px 0 20px 0"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          [ngClass]="{ row: screenWidth < 768, col: screenWidth > 768 }"
+          style="padding: 20px"
+        >
+          <div class="carta">
+            <div class="container">
+              <h2>Elsy Bakery</h2>
+              <hr />
+              <p>
+                Aplicación web de comercio electrónico para un negocio de
+                panadería. El objetivo del proyecto era crear un sitio web
+                receptivo destinado a mostrar los productos y manejar el pago
+                con una API.
+              </p>
+              <div style="padding-bottom: 15px">
+                <p>Tecnologias usadas:</p>
+                <ul style="padding: 20px">
+                  <li>
+                    <img
+                      src="../../assets/img/react.png"
+                      style="max-width: 50px; height: auto"
+                    />
+                  </li>
+                  <li>
+                    <img
+                      src="../../assets/img/mySQL-logo.png"
+                      style="max-width: 60px; height: autopx"
+                    />
+                  </li>
+                </ul>
+              </div>
+              <hr style="clear: both" />
+              <div class="col d-flex align-items-center" style="clear: both">
+                <img
+                  src="../../assets/img/elsypng.png"
+                  style="max-width: 100%; padding: 10px 0 20px 0"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          [ngClass]="{ row: screenWidth < 768, col: screenWidth > 768 }"
+          style="padding: 20px"
+        >
+          <div class="carta">
+            <div class="container">
+              <h2>Modelo de probabilidad de hurtos por barrios en Bogotá</h2>
+              <hr />
+
+              <p>
+                Utilizando la fuente de datos abiertos del gobierno de Colombia,
+                diseñe un modelo usando Python, que devolvería con un grado de
+                certeza estadística la posibilidad de que se presente un asalto
+                en la ciudad de Bogotá según el vecindario y la hora del día.
+              </p>
+              <div style="padding-bottom: 15px">
+                <p>Tecnologias usadas:</p>
+                <ul style="padding: 20px">
+                  <li>
+                    <img
+                      src="../../assets/img/python.png"
+                      style="max-width: 50px; height: auto"
+                    />
+                  </li>
+                </ul>
+              </div>
+              <hr style="clear: both" />
+
+              <div class="col d-flex align-items-center" style="clear: both">
+                <img
+                  src="../../assets/img/bogotapng.png"
+                  style="max-width: 100%;padding: 10px 0 20px 0"
+                />
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

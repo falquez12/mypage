@@ -2,25 +2,39 @@
     width:100%
 }
 
-.h1-aboutme{
-    font-size:3vw;
+h1{
+  margin-top: -10vh;
+  font-size: 72px;
+  color:#425AA6;
 }
+
+
 p{
     text-align: left;
     line-height: 1.6;
     word-spacing: 4px;
     font-family: roboto;
-    font-size:1vw;
+    font-size: 20px;
     font-weight: 400;
 }
 h2{
     text-align: justify;
+    font-size: 40px;
 }
+
+.skills{
+  margin-top: -5vh;
+  min-width:600px;
+}
+
 .skills>p{
     color: #37447e;
     margin:0;
     margin-left: 7vw;
     font-weight: 600;
+}
+.texto{
+  width: 50%; min-width: 350px; margin-right:10%
 }
 
 @keyframes slideInFromdown {
@@ -32,11 +46,61 @@ h2{
     }
   }
 
+  /* @media only screen and (max-width: 1600px) {
+    h1{
+      font-size:4.5vw;
+     
+    }
+    h2 {
+      font-size:3vw;
+    }
+    p{
+      font-size:1.5vw;
+    }
+    mat-icon{
+      font-size:3vw;
+    }
+  } */
+  
   @media only screen and (max-width: 768px) {
     h1{
+      margin-top: 5px;
+      font-size:68px;
+    }
+    h2 {
       font-size:30px;
     }
-    .wrap{
-        flex-wrap: wrap;
+    p{
+      font-size:16px;
     }
+    mat-icon{
+      font-size:6vw
+    }
+    .titulos{
+      margin-bottom: 0vh;
+      margin-top: 5vh;
+  
+    }
+    texto-container{
+      
+      position: relative;
+    }
+    .codingGif {
+      margin-top: 500px;
+      position: relative;
+    }
+    .wrap{
+      flex-wrap: wrap;
+      justify-items: center;
   }
+  .skills{
+    margin-top: 0vh;
+    min-width:400px;
+  }
+  .texto{
+    width: 100%; min-width: 350px; margin-right:0
+  }
+  }
+
+
+  

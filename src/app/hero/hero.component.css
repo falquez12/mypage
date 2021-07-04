@@ -21,9 +21,8 @@ h1 {
   font-style: normal;
   font-weight: 800;
   font-size: 72px;
-  color:#37447e;
-  -webkit-filter: drop-shadow(0.5vw 0.35vw 0px  #003140); /* Chrome, Safari, Opera */
-  filter: drop-shadow(0.5vw 0.35vw 0px  #003140);
+  color:#425AA6;
+
 }
 h2 {
     font-family: Montserrat;
@@ -39,12 +38,12 @@ p {
   font-weight: normal;
   font-size: 24px;
   font-weight: 600;
-  color:#6F7CB2;
+  color:#425AA6;
 }
 
 
 mat-icon{
-  color:#6F7CB2;
+  color:#425AA6;
     font-size: 48px;
     align-self: center;
     justify-self: center;
@@ -84,9 +83,7 @@ mat-icon{
 
 @media only screen and (max-width: 768px) {
   h1{
-    font-size:8vw;
-    -webkit-filter: drop-shadow(0.6vw 0.55vw 0px  #003140); /* Chrome, Safari, Opera */
-    filter: drop-shadow(0.7vw 0.55vw 0px  #003140)
+    font-size:68px;
   }
   h2 {
     font-size:24px;
@@ -110,11 +107,4 @@ mat-icon{
     margin-top: 500px;
     position: relative;
   }
-}
-@media only screen and (max-width: 500px) {
-
-  .codingGif {
-    margin-top: 400px;
-  }
-
 }
